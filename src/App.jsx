@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Home />
-      {ctx.isSidebarOpen && <Sidebar />}
+      <Sidebar />
       {ctx.isModalOpen && <Modal />}
     </>
   );
